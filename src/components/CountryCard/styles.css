@@ -1,0 +1,30 @@
+.country-card {
+  width: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.country-card:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.patch {
+  height: 157px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  padding: 0px 17px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 4px;
+}
